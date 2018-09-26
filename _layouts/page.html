@@ -1,61 +1,60 @@
 <!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-  Jekyll integration by somiibo.com
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
-	<head>
-    {% include head.html %}
-	</head>
-	<body class="is-loading">
+<head>
+	{% include head.html %}
+</head>
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<body class="is-loading">
 
-				<!-- Header -->
-				<header id="header">
-					<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
-				</header>
+	<!-- Wrapper -->
+	<div id="wrapper" class="fade-in">
 
-				<!-- Nav -->
-					<nav id="nav">
+		<!-- Header -->
+		<header id="header">
+			<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
+		</header>
 
-            {% include nav.html %}
+		<!-- Nav -->
+		<nav id="nav">
 
-						<ul class="icons">
-              <li><a href="https://twitter.com/{{site.twitter}}" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
-              <li><a href="https://facebook.com/{{site.facebook}}" class="icon fa-facebook" rel="nofollow"><span class="label">Facebook</span></a></li>
-              <li><a href="https://instagram.com/{{site.instagram}}" class="icon fa-instagram" rel="nofollow"><span class="label">Instagram</span></a></li>
-              <li><a href="https://github.com/{{site.github}}" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+			{% include nav.html %}
 
-				<!-- Main -->
-				<div id="main">
+			<ul class="icons">
+				<li><a href="https://twitter.com/{{site.twitter}}" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
+				<li><a href="https://facebook.com/{{site.facebook}}" class="icon fa-facebook" rel="nofollow"><span class="label">Facebook</span></a></li>
+				<li><a href="https://instagram.com/{{site.instagram}}" class="icon fa-instagram" rel="nofollow"><span class="label">Instagram</span></a></li>
+				<li><a href="https://github.com/{{site.github}}" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
+			</ul>
+		</nav>
 
-					<!-- Post -->
-					<section class="post">
-						<p>{{content}}</p>
-					</section>
+		<!-- Main -->
+		<div id="main">
 
-					<!-- Footer -->
-						<footer>
-              <ul class="actions">
-								<li><a href="{{ "/blog/" | absolute_url }}" class="button">Our Blog</a></li>
-              </ul>
-						</footer>
-					</div>
+			<!-- Post -->
+			<section class="post">
+				<p>{{content}}</p>
+			</section>
 
-				<!-- Footer -->
-        {% include foot.html %}
+			<!-- Footer -->
+			<footer>
+				<ul class="actions">
+					<li><a href="{{ "/blog/" | absolute_url }}" class="button">Our Blog</a></li>
+				</ul>
+			</footer>
+		</div>
 
-			</div>
+		<!-- Footer -->
+		{% include foot.html %}
 
-			<!-- Scripts -->
-			{% include scripts-main.html %}
-			{% include tracking.html %}
+	</div>
 
-	</body>
+	<!-- Scripts -->
+	{% include scripts-main.html %}
+	{% include tracking.html %}
+
+</body>
 </html>

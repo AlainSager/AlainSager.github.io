@@ -1,5 +1,5 @@
 # Site
-title:              Alain Sager
+title:              Massively
 bio:                'Jekyll version of the Massively theme by HTML5UP'
 description:        "Jekyll version of the Massively theme by HTML5UP"
 locale:             en_US
@@ -41,9 +41,9 @@ instagram:          default
 github:             default
 
 # personal
-location:           Switzerland Aarau, AG
-phone:              
-email:              alain.sager@stud.altekanti.ch
+location:           Los Angeles, CA
+phone:              310-318-5555
+email:              info@default.com
 
 # Gems
 gems:
